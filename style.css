@@ -73,8 +73,8 @@ body {
   }
 .backbutton {
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 20px 25px;
+    font-size: 15px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -98,8 +98,8 @@ body {
   }
 
 .backbutton {
-    width: 100px;
-    height: 100px;
+    width: 3px;
+    height: 3px;
     background-color: rgb(15, 125, 199);
     animation-name: example;
     animation-duration: 4s;
