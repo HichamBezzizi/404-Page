@@ -71,8 +71,8 @@ body {
   }
 .backbutton {
     display: inline-block;
-    padding: 25px 40px;
-    font-size: 15px;
+    padding: 20px 30px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -94,7 +94,23 @@ body {
 .backbutton {
     width: 3px;
     height: 3px;
-    background-color: rgb(15, 125, 199);
+    background-color: #22719F;
     animation-name: example;
     animation-duration: 4s;
+}
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
 }
