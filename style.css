@@ -1,0 +1,106 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+#pagenotfound {
+    position: relative;
+    height: 100vh;
+  }
+
+#pagenotfound .pagenotfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+.pagenotfound {
+    max-width: 520px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+.pagenotfound .notfoundpage {
+    position: relative;
+    height: 240px;
+  }
+
+.pagenotfound .notfoundpage h1 {
+    font-family: 'Coda Caption', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 252px;
+    font-weight: 900;
+    margin: 0px;
+    color: #262626;
+    text-transform: uppercase;
+    letter-spacing: -40px;
+    margin-left: -20px;
+  }
+
+.pagenotfound .notfoundpage h3 {
+    font-family: 'Concert One', cursive;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #262626;
+    margin: 0px;
+    letter-spacing: 3px;
+    padding-left: 6px;
+  }
+
+.pagenotfound h2 {
+    font-family: 'Concert One', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+.backbutton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #A8A8A8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+.backbutton:hover {background-color: #3e8e41}
+
+.backbutton:active {
+    background-color: #080808;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+@keyframes example {
+    from {background-color: #3e8e41;}
+    to {background-color: #FF0000;}
+  }
+
+.backbutton {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(15, 125, 199);
+    animation-name: example;
+    animation-duration: 4s;
+}
